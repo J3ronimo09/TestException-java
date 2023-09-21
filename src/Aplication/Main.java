@@ -33,7 +33,7 @@ public class Main {
             System.out.println("check-out date (dd/MM/yyyy): ");
             checkOut = sdf.parse(sc.next());
 
-            //exception: bad solution
+            
 
             reservation.updateDates(checkIn, checkOut);
             System.out.println("Reservation" + reservation);
